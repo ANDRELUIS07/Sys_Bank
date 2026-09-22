@@ -18,12 +18,33 @@ Sistema bancário simples desenvolvido em Java com persistência em banco de dad
 - JDBC
 
 ## Estrutura do projeto
-src/
-├── model/ # Entidades (Cliente, Conta, Transacao...)
-├── dao/ # Acesso a dados (JDBC)
-├── service/ # Regras de negócio
-└── Main.java # Ponto de entrada
 
+```
+sistema-bancario/
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/seuusuario/sistemabancario/
+│               ├── Main.java
+│               ├── model/
+│               │   ├── Cliente.java
+│               │   ├── Conta.java
+│               │   ├── ContaCorrente.java
+│               │   ├── ContaPoupanca.java
+│               │   └── Transacao.java
+│               ├── dao/
+│               │   ├── ConexaoBD.java
+│               │   ├── ClienteDAO.java
+│               │   ├── ContaDAO.java
+│               │   └── TransacaoDAO.java
+│               └── service/
+│                   ├── ContaService.java
+│                   └── TransacaoService.java
+├── database/
+│   └── schema.sql
+├── .gitignore
+└── README.md
+```
 ## Como executar
 
 1. Clone o repositório
