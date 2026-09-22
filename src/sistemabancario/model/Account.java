@@ -21,10 +21,6 @@ public abstract class Account {
         return accountNumber;
     }
 
-    public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
     public String getBranch() {
         return branch;
     }
@@ -37,10 +33,6 @@ public abstract class Account {
         return balance;
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
-
     public Client getClient() {
         return client;
     }
@@ -51,9 +43,5 @@ public abstract class Account {
 
     public LocalDate getDate() {
         return date;
-    }
-
-    public void setDate(LocalDate date) {
-        this.date = date;
     }
 }
