@@ -1,4 +1,4 @@
 package sistemabancario.model;
 
-public class Transaction {
+public class Bank {
 }

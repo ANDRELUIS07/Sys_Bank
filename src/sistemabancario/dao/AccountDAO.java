@@ -1,4 +1,4 @@
 package sistemabancario.dao;
 
-public class ContaDAO {
+public class AccountDAO {
 }

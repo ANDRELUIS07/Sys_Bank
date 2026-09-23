@@ -1,4 +1,4 @@
 package sistemabancario.service;
 
-public class ContaService {
+public class BankService {
 }

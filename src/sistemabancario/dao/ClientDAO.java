@@ -1,4 +1,4 @@
 package sistemabancario.dao;
 
-public class ConexaoBD {
+public class ClientDAO {
 }

@@ -1,4 +1,4 @@
 package sistemabancario.dao;
 
-public class ClienteDAO {
+public class ConnectionBD {
 }
