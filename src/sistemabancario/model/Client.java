@@ -1,6 +1,7 @@
 package sistemabancario.model;
 
 public class Client {
+    private static int nextId = 1;
     private int id;
     private String name;
     private String cpf;
@@ -9,6 +10,7 @@ public class Client {
     private String email;
 
     public Client (String name, String cpf, String address, String phone, String email){
+        this.id = nextId ++;
         this.name = name;
         this.cpf = cpf;
         this.address = address;

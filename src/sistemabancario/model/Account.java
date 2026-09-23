@@ -66,13 +66,11 @@ public abstract class Account {
     }
 
     // Remove dinheiro do saldo (apenas se houver saldo suficiente)
-    public boolean withdraw(double amount) {
+    public void withdraw(double amount) {
         if (amount > 0 && this.balance >= amount) {
             this.balance -= amount;
-            return true; // Saque deu certo
         } else {
             System.out.println("Saldo insuficiente ou valor inválido.");
-            return false; // Saque falhou
         }
     }
 }
