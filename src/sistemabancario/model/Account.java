@@ -12,7 +12,7 @@ public abstract class Account {
     private Client client;        // Objeto com os dados do dono da conta
     private LocalDate date;       // Data em que a conta foi aberta
 
-    // Construtor: Executado ao criar uma nova conta
+    // Construtor: Executado ao criar uma conta
     public Account(String accountNumber, String branch, Client client){
         this.accountNumber = accountNumber;
         this.branch = branch;

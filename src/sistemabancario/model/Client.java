@@ -10,7 +10,6 @@ public class Client {
     private String email;
 
     public Client (String name, String cpf, String address, String phone, String email){
-        this.id = nextId ++;
         this.name = name;
         this.cpf = cpf;
         this.address = address;
